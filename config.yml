@@ -1,0 +1,7 @@
+database:
+    type: MySQL
+    host: localhost
+    username: root
+    password: 
+    database: dal
+    db_driver: mysqli

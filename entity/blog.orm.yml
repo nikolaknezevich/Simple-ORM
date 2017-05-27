@@ -1,0 +1,17 @@
+# entity/Blog.orm.yml
+Blog:
+    type: entity
+    table: blog
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        title:
+            type: string
+            length: 100
+        slug:
+            type: string
+            length: 100
+        blog_text:
+            type: text
